@@ -1,0 +1,15 @@
+.navbar {
+  background: white;
+}
+.btnn {
+  background: linear-gradient(
+    109.56deg,
+    rgba(200, 33, 40, 0.5) 38.05%,
+    rgba(120, 11, 116, 0.46) 87.08%
+  );
+}
+.nav-link {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 700;
+}

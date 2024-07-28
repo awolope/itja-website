@@ -1,0 +1,103 @@
+body {
+  font-family: Nunito-Sans;
+}
+
+.review-section {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.reviews {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.review {
+  min-width: 200px;
+  flex: 0 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 100px;
+  margin-top: -20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating {
+  font-size: 1.2em;
+  color: #ffd700;
+}
+.namec {
+  font-size: 10px;
+  font-weight: 800;
+
+  color: black;
+  margin-top: -8px;
+}
+.comment {
+  font-family: Nunito Sans;
+  font-size: 10px;
+  font-weight: 400;
+
+  width: 100px;
+  text-align: left;
+  color: black;
+  opacity: 0.6;
+}
+.courser {
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  color: black;
+  opacity: 0.6;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.scroll-button {
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}

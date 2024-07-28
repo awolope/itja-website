@@ -1,0 +1,98 @@
+.passform {
+  display: flex;
+  justify-content: space-between;
+}
+.Signup {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  font-family: Nunito Sans;
+}
+.maform {
+  width: 300px;
+}
+
+.form-control {
+  background: rgba(244, 244, 244, 1);
+  height: 45px;
+  border: none;
+}
+.react-tel-input .form-control {
+  background: #f4f4f4;
+  height: 45px;
+  border: none;
+}
+
+.react-tel-input .form-control:focus {
+  background: rgba(244, 244, 244, 1);
+  height: 45px;
+  border: none;
+}
+.react-tel-input .flag-dropdown {
+  border: none;
+}
+.react-tel-input.flag-dropdown:hover {
+  background: rgba(244, 244, 244, 1);
+}
+.form-control:focus {
+  background: rgba(244, 244, 244, 1);
+
+  border-color: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-check-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-outline-secondary:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-outline-secondary {
+  background: rgba(244, 244, 244, 1);
+  border-color: none;
+  border: none;
+  color: red;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #e0e0e0;
+}
+.term {
+  font-weight: 500;
+  font-size: 13px;
+}
+.terms {
+  color: red;
+}
+.btn-danger {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+.foots {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.foots a {
+  text-decoration: none;
+  color: red;
+  font-weight: 900;
+}
+.h2s {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media (max-width: 900px) {
+  .signup {
+    width: 450px;
+    margin-right: 100px;
+  }
+}

@@ -1,0 +1,41 @@
+.footer-logo {
+  max-width: 100%;
+
+  height: auto;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.footer ul {
+  padding: 0;
+  color: black;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+  color: black;
+}
+.maila {
+  text-decoration: none;
+}
+.footer {
+  margin-top: 10px;
+  background: linear-gradient(180deg, #f7f1ff 0%, rgba(247, 241, 255, 0) 100%);
+  padding: 40px;
+
+  font-size: 15px;
+}
+.foooterp {
+  font-family: Nunito Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.73px;
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
