@@ -5,6 +5,14 @@ import HomePage from "./Homepage";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
+  const loggedInUser = JSON.parse(localStorage.getItem("user"));
+
+  // Log user's names to the console
+  if (loggedInUser) {
+    console.log(
+      `Logged in user: ${loggedInUser.firstName} ${loggedInUser.lastName}`
+    );
+  }
   return (
     <Router>
       <Routes>

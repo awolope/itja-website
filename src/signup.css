@@ -1,5 +1,11 @@
 .passform {
   display: flex;
+
+  justify-content: space-between;
+}
+.passform1 {
+  display: flex;
+
   justify-content: space-between;
 }
 .Signup {
@@ -94,5 +100,12 @@
   .signup {
     width: 450px;
     margin-right: 100px;
+  }
+  .passform {
+    margin-top: 90px;
+    margin-right: 80px;
+  }
+  .passform1 {
+    margin-right: 30px;
   }
 }

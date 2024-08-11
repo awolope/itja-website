@@ -83,9 +83,12 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    localStorage.setItem("user", JSON.stringify(formData));
     if (validateForm()) {
       toast.success("Signup successful!");
-      navigate("/");
+      navigate(
+        "/                                                                                                                                                                              "
+      );
     } else {
       if (errors.firstName) toast.error(errors.firstName);
       if (errors.lastName) toast.error(errors.lastName);
@@ -102,7 +105,7 @@ const Signup = () => {
       <div className="Signup">
         <h2 className="h2s">Create an Account</h2>
         <form onSubmit={handleSubmit}>
-          <div className="passform">
+          <div className="passform1">
             <div className="mb-3">
               <label className="form-label">First Name</label>
               <input
@@ -147,7 +150,7 @@ const Signup = () => {
               <div className="invalid-feedback">{errors.email}</div>
             )}
           </div>
-          <div className="mb-3">
+          <div className="mb-5">
             <label className="form-label">Phone Number</label>
             <PhoneInput
               country={"us"}
@@ -160,8 +163,8 @@ const Signup = () => {
               <div className="invalid-feedback d-block">{errors.phone}</div>
             )}
           </div>
-          <div className="passform">
-            <div className="mb-3 mt-2">
+          <div className="passform ">
+            <div className="m-1">
               <label className="form-label">Password</label>
               <div className="input-group">
                 <input
@@ -185,7 +188,7 @@ const Signup = () => {
                 <div className="invalid-feedback">{errors.password}</div>
               )}
             </div>
-            <div className="mb-3 m-2">
+            <div className=" m-2 ">
               <label className="form-label">Confirm Password</label>
               <div className="input-group">
                 <input

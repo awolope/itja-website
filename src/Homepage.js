@@ -38,7 +38,7 @@ const HomePage = () => {
               </Link>
             </div>
           </div>
-          <div className="col-md-6 row">
+          <div className="col-md-6 row r5">
             <div className="col-md-6">
               <img src="./homepage1.png" className="img-fluid" alt=""></img>
             </div>
